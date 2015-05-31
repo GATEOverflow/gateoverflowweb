@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/aktualisieren" android:title="Aktualisieren"></item>
+    <item android:id="@+id/home" android:title="Startseite"></item><item android:id="@+id/service" android:title="Überwachung für Antworten ein/ausschalten"></item><item android:id="@+id/impressum" android:title="Impressum"></item>
+    
+    
+    
+
+</menu>

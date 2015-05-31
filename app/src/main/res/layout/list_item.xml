@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/titel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:text="Überschrift"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/sattesblau"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    
+     <TextView
+         android:id="@+id/decription"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:text="Beschreibung"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/Schwarz"
+         android:textSize="12sp" />
+
+     <TextView
+         android:id="@+id/autor"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="5dp"
+         android:text="Autor"
+         android:textColor="@color/leichtgrau"
+         android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2px"
+            android:text="count"
+            android:textColor="@color/leichtgrau"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:autoLink="none"
+            android:gravity="right"
+            android:text="Datum"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/leichtgrau"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

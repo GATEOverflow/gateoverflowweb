@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:key="services" android:title="Hintergrund"><CheckBoxPreference android:title="Benachrichtigung für Fragen" android:key="fragencheck" android:enabled="true" /><CheckBoxPreference android:key="antwortcheck" android:title="Benachrichtigung für Antworten" />
+    <ListPreference android:entryValues="@array/values_persiodendauer" android:entries="@array/periodendauer" android:dialogTitle="Intervall" android:key="peridodendauer" android:title="Häufigkeit der Aktualisierung" /><EditTextPreference android:title="Benutzername" android:negativeButtonText="Abbrechen" android:positiveButtonText="Speichern" android:dialogTitle="Benutzernamen" android:dialogMessage="Wenn du bei GMF registriert bist, kannst du hier deinen Benutzernamen eintragen. Du erhältst automatisch eine Benachrichtigung, sobald eine Antwort auf deine Frage eingeht!" android:key="username" />
+    </PreferenceCategory><PreferenceCategory android:key="startsettings" android:title="Start">
+        <ListPreference android:entryValues="@array/values_startseite" android:title="Seite bei Appstart" android:entries="@array/startseite" android:negativeButtonText="Abbrechen" android:key="home"/>
+        
+    </PreferenceCategory>
+    
+    
+   
+    
+
+</PreferenceScreen>

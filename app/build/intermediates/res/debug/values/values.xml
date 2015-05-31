@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/arjun/Downloads/gmf-android-app/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
+    <string-array name="periodendauer">
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>45 Minuten</item>
+        <item>1 Stunde</item>
+        <item>2 Stunden</item>
+    </string-array>
+    <string-array name="startseite">
+        <item>GMF Webseite</item>
+        <item>Fragen</item>
+    </string-array>
+    <string-array name="values_persiodendauer">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="values_startseite">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- From: file:/home/arjun/Downloads/gmf-android-app/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="Schwarz">#3C3C3C</color>
+    <color name="blau">#2BADDC</color>
+    <color name="green">#2BDCBF</color>
+    <color name="leichtgrau">#A7988B</color>
+    <color name="sattesblau">#321CC1</color>
+    <!-- From: file:/home/arjun/Downloads/gmf-android-app/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">GATE Overflow Web</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="networkerror">No internet connection available! Please provide a connection to the Internet and try again!</string>
+    <string name="title_activity_antworten">GATE Overflow RSS Feed</string>
+    <string name="title_activity_fragen">GATE Overflow RSS_Feed</string>
+    <string name="title_activity_service_antworten">Service Answers</string>
+    <string name="title_activity_service_fragen">Service Issues</string>
+    <!-- From: file:/home/arjun/Downloads/gmf-android-app/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
+    <string name="title_activity_settings">Einstellungen</string>
+    <!-- From: file:/home/arjun/Downloads/gmf-android-app/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_web_view">Website</string>
+    <string name="title_activity_web_viewseite">Website</string>
+    <!-- From: file:/home/arjun/Downloads/gmf-android-app/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
