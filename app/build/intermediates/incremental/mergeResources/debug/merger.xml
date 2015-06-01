@@ -8,16 +8,16 @@
         <item>60</item>
         <item>120</item>
     </string-array><string-array name="startseite">
-        <item>GMF Webseite</item>
-        <item>Fragen</item>
-    </string-array><string name="title_activity_settings">Einstellungen</string><string-array name="periodendauer">
-        <item>5 Minuten</item>
-        <item>10 Minuten</item>
-        <item>15 Minuten</item>
-        <item>30 Minuten</item>
-        <item>45 Minuten</item>
-        <item>1 Stunde</item>
-        <item>2 Stunden</item>
+        <item>GATE Overflow Website</item>
+        <item>RSS Feed</item>
+    </string-array><string name="title_activity_settings">Settings</string><string-array name="periodendauer">
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>1 Hour</item>
+        <item>2 Hours</item>
     </string-array><string-array name="values_startseite">
         <item>0</item>
         <item>1</item>

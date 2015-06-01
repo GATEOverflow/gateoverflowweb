@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-    <PreferenceCategory android:key="services" android:title="Background"><CheckBoxPreference android:title="alert for questions" android:key="fragencheck" android:enabled="true" /><CheckBoxPreference android:key="antwortcheck" android:title="Alert for answers" />
+    <PreferenceCategory android:key="services" android:title="Background"><CheckBoxPreference android:title="Alert for questions" android:key="fragencheck" android:enabled="true" /><CheckBoxPreference android:key="antwortcheck" android:title="Alert for answers" />
     <ListPreference android:entryValues="@array/values_persiodendauer" android:entries="@array/periodendauer" android:dialogTitle="Interval" android:key="peridodendauer" android:title="Frequency of update" /><EditTextPreference android:title="Username" android:negativeButtonText="Cancel" android:positiveButtonText="Save" android:dialogTitle="Username" android:dialogMessage="If you are registered with GATE Overflow, you can enter your username here. You will automatically receive a notification when an answer to your question is received!" android:key="username" />
     </PreferenceCategory><PreferenceCategory android:key="startsettings" android:title="Start">
         <ListPreference android:entryValues="@array/values_startseite" android:title="Page at Appstart" android:entries="@array/startseite" android:negativeButtonText="Cancel" android:key="home"/>
