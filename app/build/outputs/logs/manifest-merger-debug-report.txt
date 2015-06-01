@@ -45,7 +45,7 @@ ADDED from AndroidManifest.xml:15:5
 		ADDED from AndroidManifest.xml:17:9
 	android:theme
 		ADDED from AndroidManifest.xml:19:9
-activity#de.gute_mathe_fragen.MainActivity
+activity#de.arjun.MainActivity
 ADDED from AndroidManifest.xml:20:9
 	android:label
 		ADDED from AndroidManifest.xml:22:13
@@ -61,63 +61,63 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:26:17
 	android:name
 		ADDED from AndroidManifest.xml:26:27
-activity#de.gute_mathe_fragen.WebView
+activity#de.arjun.WebView
 ADDED from AndroidManifest.xml:29:9
 	android:label
 		ADDED from AndroidManifest.xml:31:13
 	android:name
 		ADDED from AndroidManifest.xml:30:13
-activity#de.gute_mathe_fragen.Fragen
+activity#de.arjun.Fragen
 ADDED from AndroidManifest.xml:33:9
 	android:label
 		ADDED from AndroidManifest.xml:35:13
 	android:name
 		ADDED from AndroidManifest.xml:34:13
-activity#de.gute_mathe_fragen.Antworten
+activity#de.arjun.Antworten
 ADDED from AndroidManifest.xml:37:9
 	android:label
 		ADDED from AndroidManifest.xml:39:13
 	android:name
 		ADDED from AndroidManifest.xml:38:13
-activity#de.gute_mathe_fragen.WebViewseite
+activity#de.arjun.WebViewseite
 ADDED from AndroidManifest.xml:41:9
 	android:label
 		ADDED from AndroidManifest.xml:43:13
 	android:name
 		ADDED from AndroidManifest.xml:42:13
-activity#de.gute_mathe_fragen.Settings
+activity#de.arjun.Settings
 ADDED from AndroidManifest.xml:45:9
 	android:label
 		ADDED from AndroidManifest.xml:47:13
 	android:name
 		ADDED from AndroidManifest.xml:46:13
-activity#de.gute_mathe_fragen.ServiceFragen
+activity#de.arjun.ServiceFragen
 ADDED from AndroidManifest.xml:49:9
 	android:label
 		ADDED from AndroidManifest.xml:51:13
 	android:name
 		ADDED from AndroidManifest.xml:50:13
-activity#de.gute_mathe_fragen.ServiceAntworten
+activity#de.arjun.ServiceAntworten
 ADDED from AndroidManifest.xml:53:9
 	android:label
 		ADDED from AndroidManifest.xml:55:13
 	android:name
 		ADDED from AndroidManifest.xml:54:13
-activity#de.gute_mathe_fragen.SettingsActivity
+activity#de.arjun.SettingsActivity
 ADDED from AndroidManifest.xml:57:9
 	android:label
 		ADDED from AndroidManifest.xml:59:13
 	android:name
 		ADDED from AndroidManifest.xml:58:13
-service#de.gute_mathe_fragen.ServiceFragen
+service#de.arjun.ServiceFragen
 ADDED from AndroidManifest.xml:62:9
 	android:name
 		ADDED from AndroidManifest.xml:62:18
-service#de.gute_mathe_fragen.ServiceAntworten
+service#de.arjun.ServiceAntworten
 ADDED from AndroidManifest.xml:66:9
 	android:name
 		ADDED from AndroidManifest.xml:66:18
-receiver#de.gute_mathe_fragen.Servicestarter
+receiver#de.arjun.Servicestarter
 ADDED from AndroidManifest.xml:69:9
 	android:name
 		ADDED from AndroidManifest.xml:70:13

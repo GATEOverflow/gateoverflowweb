@@ -6,7 +6,7 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_web_view">Website</string>
     <string name="title_activity_fragen">GATE Overflow RSS_Feed</string>
-    <string name="title_activity_antworten">GATE Overflow RSS Feed</string>
+    <string name="title_activity_antworten">GATE Overflow Answer Feed</string>
     <string name="title_activity_web_viewseite">Website</string>
     <string name="networkerror">No internet connection available! Please provide a connection to the Internet and try again!</string>
     <string name="title_activity_service_fragen">Service Issues</string>

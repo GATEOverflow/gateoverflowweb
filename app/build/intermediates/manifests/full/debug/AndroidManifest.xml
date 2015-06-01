@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.gute_mathe_fragen"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="de.arjun"
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="de.gute_mathe_fragen.MainActivity"
+            android:name="de.arjun.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,44 +27,44 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.gute_mathe_fragen.WebView"
+            android:name="de.arjun.WebView"
             android:label="@string/title_activity_web_view" >
         </activity>
         <activity
-            android:name="de.gute_mathe_fragen.Fragen"
+            android:name="de.arjun.Fragen"
             android:label="@string/title_activity_fragen" >
         </activity>
         <activity
-            android:name="de.gute_mathe_fragen.Antworten"
+            android:name="de.arjun.Antworten"
             android:label="@string/title_activity_antworten" >
         </activity>
         <activity
-            android:name="de.gute_mathe_fragen.WebViewseite"
+            android:name="de.arjun.WebViewseite"
             android:label="@string/title_activity_web_viewseite" >
         </activity>
         <activity
-            android:name="de.gute_mathe_fragen.Settings"
+            android:name="de.arjun.Settings"
             android:label="@string/title_activity_settings" >
         </activity>
         <activity
-            android:name="de.gute_mathe_fragen.ServiceFragen"
+            android:name="de.arjun.ServiceFragen"
             android:label="@string/title_activity_service_fragen" >
         </activity>
         <activity
-            android:name="de.gute_mathe_fragen.ServiceAntworten"
+            android:name="de.arjun.ServiceAntworten"
             android:label="@string/title_activity_service_antworten" >
         </activity>
         <activity
-            android:name="de.gute_mathe_fragen.SettingsActivity"
+            android:name="de.arjun.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
 
-        <service android:name="de.gute_mathe_fragen.ServiceFragen" >
+        <service android:name="de.arjun.ServiceFragen" >
         </service>
-        <service android:name="de.gute_mathe_fragen.ServiceAntworten" >
+        <service android:name="de.arjun.ServiceAntworten" >
         </service>
 
-        <receiver android:name="de.gute_mathe_fragen.Servicestarter" >
+        <receiver android:name="de.arjun.Servicestarter" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" >
                 </action>

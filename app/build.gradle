@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "de.gute_mathe_fragen"
+        applicationId "de.arjun"
         minSdkVersion 7
         targetSdkVersion 14
     }
